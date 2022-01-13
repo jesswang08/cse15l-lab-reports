@@ -6,9 +6,12 @@
 [GitHub](https://github.com)
 
 > blue
+
+Ingedients for a sandwich:
 * peanut butter
 * jelly
 
+Cake flavors:
 1. chocolate
 2. vanilla
 3. red velvet
