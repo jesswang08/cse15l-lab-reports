@@ -3,9 +3,9 @@
 # Thursday
 ## Jan 13, 2022
 
-[GitHub] (https://github.com/jesswang08/cse15l-lab-reports)
+[GitHub] (https://github.com)
 
-![Image] (https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg)
+![Image] (https://www.pngfind.com/pngs/m/59-596222_cup-mug-coffee-coffee-png-transparent-png.png)
 
 > blue
 * peanut butter
