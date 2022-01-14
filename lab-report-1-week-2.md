@@ -1,6 +1,6 @@
 # Remote Access
 ---
-## Week 2 Lab Report - January 13, 2022
+## Lab 1 Report - January 13, 2022
 ---
 <br/>
 
