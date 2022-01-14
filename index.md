@@ -11,6 +11,10 @@ Ingedients for a sandwich:
 * peanut butter
 * jelly
 
+[Lab Report 1](lab-report-1-week-2.html)
+
+![Image](Screenshot(508).png)
+
 Cake flavors:
 1. chocolate
 2. vanilla
