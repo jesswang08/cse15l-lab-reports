@@ -108,3 +108,13 @@ scp file1.txt file2.txt cs15lwi22aqx@ieng6.ucsd.edu:~/
 ```
 
 ![Image](optimizeRun.png)
+
+Example: make local edit to WhereAmI.java, copy it to remote server, and run it <br>
+```
+// make edit to local
+$ javac WhereAmI.java; java WhereAmI
+$ scp WhereAmI.java cs15lwi22aqx@ieng6.ucsd.edu:~/
+$ ssh cs15lwi22aqx@ieng6.ucsd.edu
+$ javac WhereAmI.java; java WhereAmI
+```
+This took me 10 keystokes/mouse clicks using the up arrow and copy/paste and around 30 seconds to complete the whole process which is much faster than typing in each command every time I wanted to run the program on the server which may have taken at least a minute. 
