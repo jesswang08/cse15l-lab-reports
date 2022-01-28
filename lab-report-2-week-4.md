@@ -17,9 +17,16 @@ Symptom: "image.jpg" should not be included in output
 
 ---
 # Code Change #2 <br/>
+Parentheses followed by a bunch of text followed by brackets are incorrectly recognized as a link. Fixed by checking if the next open bracket directly follows the closing parentheses. 
 
 
-![Image](.png)
+![Image](codeChange2.png)
+
+Failure-inducing input: [test2.md](myTest.md)
+
+Symptom: input is not a correctly formatted link so there should be no output
+![Image](codeChange2Symptom.png)
+
 
 
 ---
@@ -27,6 +34,11 @@ Symptom: "image.jpg" should not be included in output
 
 
 
-![Image](.png)
+![Image](codeChange2.png)
+
+Failure-inducing input: [myTest.md](myTest.md)
+
+Symptom: 
+![Image](codeChange1Symptom.png)
 
 
