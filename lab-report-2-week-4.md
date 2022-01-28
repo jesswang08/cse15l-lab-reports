@@ -39,7 +39,6 @@ Test files that contained the beginnings of link patterns only (like having "(" 
 Failure-inducing input: [test8-file.md](test8-file.md)
 
 Symptom: infinite loop occurs because the program was searching for the closing link component of either ")" or "]". 
-
 ![Image](codeChange3Symptom.png)
 
 
