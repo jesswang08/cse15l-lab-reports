@@ -22,7 +22,7 @@ Parentheses followed by a bunch of text followed by brackets are incorrectly rec
 
 ![Image](codeChange2.png)
 
-Failure-inducing input: [test2.md](myTest.md)
+Failure-inducing input: [test2.md](test2.md)
 
 Symptom: input is not a correctly formatted link so there should be no output
 ![Image](codeChange2Symptom.png)
@@ -31,14 +31,15 @@ Symptom: input is not a correctly formatted link so there should be no output
 
 ---
 # Code Change #3 <br/>
+Test files that contained the beginnings of link patterns only (like having "(" or "[") caused an infinite loop. Fixed by adding checks to see if closing link components were found. If not, the while loop is exited and there is no longer an infinte loop. 
 
 
+![Image](codeChange3.png)
 
-![Image](codeChange2.png)
+Failure-inducing input: [test8-file.md](test8-file.md)
 
-Failure-inducing input: [myTest.md](myTest.md)
+Symptom: infinite loop occurs because the program was searching for the closing link component of either ")" or "]". 
 
-Symptom: 
-![Image](codeChange1Symptom.png)
+![Image](codeChange3Symptom.png)
 
 
