@@ -13,20 +13,23 @@ Host jesswang
     User cs15lwi22aqx
 ```
 The `jesswang` is an alias that you set for `ssh` to interpret and you can use any username you want. 
+
 ![Image](sshConfigFileAfterAlias.png)
 
 3. To ssh into the ieng6 server, simply type into the command line:
 ```
 $ ssh jesswang
-``
+```
+
 ![Image](sshUsingAlias.png)
 
 4. You can also use the scp command with the alias. The original command would be 
 ```
 $ scp WhereAmI.java cs15lwi22aqx@ieng6.ucsd.edu:~/
 ```
-but with the alias, you do not need to type out the full course-specifc username anymore (replace with the alias). The new command is:
+but with the alias, you do not need to type out the full course-specifc username anymore (replace with the alias) and make sure to run this command **on the local machine**. The new command is:
 ```
 $ scp WhereAmI.java jesswang:~/
 ```
+
 ![Image](scpCommandAlias.png)
