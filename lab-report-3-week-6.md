@@ -2,7 +2,6 @@
 ---
 ## Lab 3 Report - February 11, 2022
 ---
-
 1. Find the .ssh/config file and open it with VSCode.
 
 ![Image](sshConfigFileBefore.png)
@@ -16,13 +15,12 @@ Host jesswang
 The `jesswang` is an alias that you set for `ssh` to interpret and you can use any username you want. 
 
 ![Image](sshConfigFileAfterAlias.png)
-
+ 
 3. To ssh into the ieng6 server, simply type into the command line:
 ```
 $ ssh jesswang
 ```
-
-![Image](sshUsingAlias.png)
+![Image](sshUsingAlias.png
 
 4. You can also use the scp command with the alias. The original command would be 
 ```
