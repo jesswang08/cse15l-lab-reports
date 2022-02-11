@@ -2,7 +2,6 @@
 ---
 ## Lab 3 Report - February 11, 2022
 ---
-<br/>
 
 1. Find the .ssh/config file and open it with VSCode.
 ![Image](sshConfigFileBefore.png)
