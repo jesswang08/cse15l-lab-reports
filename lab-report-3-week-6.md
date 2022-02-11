@@ -2,11 +2,12 @@
 ---
 ## Lab 3 Report - February 11, 2022
 ---
-1. Find the .ssh/config file and open it with VSCode.
+Find the .ssh/config file and open it with VSCode.
 
 ![Image](sshConfigFileBefore.png)
 
-2. To the file, add the lines:
+
+To the file, add the lines:
 ```
 Host jesswang
     HostName ieng6.ucsd.edu
@@ -16,13 +17,15 @@ The `jesswang` is an alias that you set for `ssh` to interpret and you can use a
 
 ![Image](sshConfigFileAfterAlias.png)
  
-3. To ssh into the ieng6 server, simply type into the command line:
+
+To ssh into the ieng6 server, simply type into the command line:
 ```
 $ ssh jesswang
 ```
 ![Image](sshUsingAlias.png
 
-4. You can also use the scp command with the alias. The original command would be 
+
+You can also use the scp command with the alias. The original command would be 
 ```
 $ scp WhereAmI.java cs15lwi22aqx@ieng6.ucsd.edu:~/
 ```
