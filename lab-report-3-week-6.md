@@ -4,6 +4,7 @@
 ---
 
 1. Find the .ssh/config file and open it with VSCode.
+
 ![Image](sshConfigFileBefore.png)
 
 2. To the file, add the lines:
