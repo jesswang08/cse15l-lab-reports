@@ -22,7 +22,7 @@ To ssh into the ieng6 server, simply type into the command line:
 ```
 $ ssh jesswang
 ```
-![Image](sshUsingAlias.png
+![Image](sshUsingAlias.png)
 
 
 You can also use the scp command with the alias. The original command would be 
