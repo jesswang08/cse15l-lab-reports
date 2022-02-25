@@ -24,7 +24,7 @@ My corresponding output after running the 3 new tests I added:
 # Reviewed code implementation:
 
 I used the same tests I wrote for mine to test the repo I reviewed:
-![Image](turnMyCodeIntoTests.png)
+![Image](testMySnippet.png)
 
 Reviewed repo's corresponding output after running the 3 new tests I added:
 ![Image](testReviewedSnippet.png)
