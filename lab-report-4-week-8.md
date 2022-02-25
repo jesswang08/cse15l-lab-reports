@@ -15,7 +15,7 @@ I used the VSCode preview to determine which links are considered links.
 # My code implementation:
 
 Turning my code into tests (in `MarkdownParseTest.java`):
-![Image](turnMyCodeIntoTests.png) 
+![Image](testMySnippet.png) 
 
 My corresponding output after running the 3 new tests I added:
 ![Image](myTestFailure.png)
